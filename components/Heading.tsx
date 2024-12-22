@@ -15,5 +15,6 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 20,
     textDecorationLine: 'underline',
+    marginBottom: 10,
   },
 });
