@@ -17,6 +17,7 @@ const TrendingCard = () => {
           by Shia Muslims for the purpose of Azadari. This imambara is the
           second largest after the Nizamat Imambara."
         distance="30 mins away"
+        weblink="https://en.wikipedia.org/wiki/Bara_Imambara"
         fullWidth
       />
     </View>

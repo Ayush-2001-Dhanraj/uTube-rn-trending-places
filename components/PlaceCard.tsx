@@ -1,4 +1,11 @@
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  Linking,
+  TouchableOpacity,
+} from 'react-native';
 import React from 'react';
 
 type PlaceCardProps = {
@@ -8,6 +15,7 @@ type PlaceCardProps = {
   description: string;
   distance: string;
   fullWidth?: boolean;
+  weblink?: string;
 };
 
 const PlaceCard = ({
@@ -17,10 +25,17 @@ const PlaceCard = ({
   description,
   distance,
   fullWidth,
+  weblink,
 }: PlaceCardProps) => {
+  const handleImagePress = () => {
+    if (weblink) Linking.openURL(weblink);
+  };
+
   return (
     <View style={[styles.cardContainer, {width: !fullWidth ? 350 : '100%'}]}>
-      <Image source={{uri: imageURI}} style={styles.image} />
+      <TouchableOpacity onPress={handleImagePress}>
+        <Image source={{uri: imageURI}} style={styles.image} />
+      </TouchableOpacity>
       <Text style={styles.cardTitle}>{title}</Text>
       <Text style={styles.cardLocation}>{location}</Text>
       <Text style={styles.cardDescription}>{description}</Text>

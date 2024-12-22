@@ -12,8 +12,9 @@ const TrendingPlaces = () => {
           imageURI="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0psRB-MR3qkNkH0jAcanG01ETkJdk2Gixknkm03Fl-IIJeVxFnXF0ci1GyMiFvQc7Z4U"
           title="Nawab Wajid Ali Shah Prani Udyan"
           location="Lucknow, Uttar Pradesh, India"
-          description="JNawab Wajid Ali Shah Prani Udyan, earlier known as Prince of Wales Zoological Gardens or popularly known as Lucknow Zoological Garden (Urdu: Lakhnaū Chiṛiyāghara), and Banaarsi Baag, is a 71.6-acre (29.0 ha) zoo located in the heart of the capital city of Uttar Pradesh named after Wajid Ali Shah - the last Nawab of Awadh. According to the Central Zoo Authority of India, it is a large zoo."
+          description="Nawab Wajid Ali Shah Prani Udyan, earlier known as Prince of Wales Zoological Gardens or popularly known as Lucknow Zoological Garden (Urdu: Lakhnaū Chiṛiyāghara), and Banaarsi Baag, is a 71.6-acre (29.0 ha) zoo located in the heart of the capital city of Uttar Pradesh named after Wajid Ali Shah - the last Nawab of Awadh. According to the Central Zoo Authority of India, it is a large zoo."
           distance="15 mins away"
+          weblink="https://en.wikipedia.org/wiki/Nawab_Wajid_Ali_Shah_Prani_Udyan"
         />
         <PlaceCard
           imageURI="https://jawalaji.in/wp-content/uploads/2015/09/hqdefault.jpg"
@@ -21,6 +22,7 @@ const TrendingPlaces = () => {
           location="Shaktinagar, Uttar Pradesh"
           description="Jwaladevi Temple (ज्वालादेवी मन्दिर) is located in Shaktinagar which is in Sonbhadra district of Uttar Pradesh. The Jwaladevi temple is dedicated to Goddess Jwala Ji . This is an age old Ashtagrih temple of Jwala Devi & one of the 51 Shakta pithas of India. The old temple is believed to be 1000 years old. The old temple was constructed by Raja Udit Narayan Singh of singrauli Gaharwal village."
           distance="75 mins away"
+          weblink="https://en.wikipedia.org/wiki/Jwala_Devi_Temple_(Uttar_Pradesh)"
         />
         <PlaceCard
           imageURI="https://upload.wikimedia.org/wikipedia/commons/f/f0/Bara_Imambara_Lucknow.jpg"
@@ -32,6 +34,7 @@ const TrendingPlaces = () => {
           by Shia Muslims for the purpose of Azadari. This imambara is the
           second largest after the Nizamat Imambara."
           distance="30 mins away"
+          weblink="https://en.wikipedia.org/wiki/Bara_Imambara"
         />
       </ScrollView>
     </View>
