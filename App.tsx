@@ -1,12 +1,14 @@
 import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import FlatCards from './components/FlatCards';
+import ScrollViewCards from './components/ScrollViewCards';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView contentContainerStyle={{gap: 10}}>
         <FlatCards />
+        <ScrollViewCards />
       </ScrollView>
     </SafeAreaView>
   );
@@ -17,5 +19,6 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     padding: 8,
+    flex: 1,
   },
 });
